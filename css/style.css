@@ -1,5 +1,6 @@
 body{
   font-family: Tahoma;
+  color: #1503a0;
 }
 
 #calendar{
@@ -32,7 +33,7 @@ body{
 
 #calendar ul.weekdays{
   height: 40px;
-  background: #333;
+  background: #1503a0;
   width: 99.5%;
 }
 
@@ -58,7 +59,7 @@ body{
   text-align: center;
   margin-bottom: 5px;
   padding: 5px;
-  background: #333;
+  background: #1503a0;
   color: #fff;
   width: 25px;
   border-radius: 50%;
@@ -75,14 +76,15 @@ body{
   margin-bottom: 5px;
   color: #666;
   line-height: 14px;
-  background: #e4f2f2;
-  border: 1px solid #b5dbdc;
-  color: #009aaf;
+  background: #918bc1;
+  border: 2px solid #1503a0;
+  color: #fff;
   text-decoration: none; 
 }
 
 #calendar .event-desc{
-  color: #666;
+  color: #fff;
+  font-weight: bold;
   margin: 3px 0px 7px 0px;
   text-decoration: none;
 }
